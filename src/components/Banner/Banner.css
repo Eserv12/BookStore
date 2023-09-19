@@ -2,12 +2,13 @@
     background-size: cover;
     background-position: center;
     height: 100vh;
-    
+    opacity: 0.9;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
     url("https://images.pexels.com/photos/694740/pexels-photo-694740.jpeg");
 }
 
 .banner-container {
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     padding: 15% 0;
 }

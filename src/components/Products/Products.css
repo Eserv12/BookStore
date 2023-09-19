@@ -1,27 +1,80 @@
+:root {
+    --button-color: #1bcb7f;
+}
+
 .product-card-container {
     display: flex;
     justify-content: space-around;
-    flex-wrap:wrap;
-    margin: 50px;
+    flex-wrap: wrap;
+    margin: 3rem;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
-.card{
+.card {
     
+    width: 280px;
     margin: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    
 }
+
+
+
+.card button:hover {
+    opacity: 0.7;
+}
+
 
 .card button{
-    border: none;
-    outline: 0;
-    padding: 10px;
-    color: white;
-    background-color: #1bcb7f;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 15px
+
+        background-color: #89d8d3;
+        background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
+        border: none;
+        z-index: 1;
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        
 }
+.button:after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        border-radius: 5px;
+        background-color: #4dccc6;
+        background-image: linear-gradient(315deg, #4dccc6 0%, #96e4df 74%);
+        box-shadow:
+        -7px -7px 20px 0px #fff9,
+        -4px -4px 5px 0px #fff9,
+        7px 7px 20px 0px #0002,
+        4px 4px 5px 0px #0001;
+        transition: all 0.3s ease;
+}
+.button:hover {
+        color: #fff;
+}
+.button:hover:after {
+        top: 0;
+        height: 100%;
+}
+.button:active {
+        top: 2px;
+}
+
 
 .card button:hover {
     opacity: 0.7;
