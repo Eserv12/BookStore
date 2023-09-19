@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "name": "Harry Potter y la piedra filosofal",
+        "author": "J. K. Rowling",
+        "price": 5500,
+        "img": "https://sbslibreria.vteximg.com.br/arquivos/ids/210446-1000-1000/9789878000107.jpg",
+        "quanty": 1
+    },
+
+    {
+        "id": 2,
+        "name": "El señor de los anillos",
+        "author": "J. R. R. Tolkien",
+        "price": 8400,
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1566425108l/33.jpg",
+        "quanty" : 1
+    },
+    
+    {
+        "id": 3,
+        "name": "La naranja mecánica",
+        "author": "Anthony Burgess",
+        "price": 4000,
+        "img": "https://planetalibro.net/biblioteca/a/n/anthony/anthony-burgess-la-naranja-mecanica/anthony-burgess-la-naranja-mecanica.jpg",
+        "quanty ": 1
+    },
+
+    {
+        "id": 4,
+        "name": "It",
+        "author": "Stephen King",
+        "price": 3200,
+        "img": "https://upload.wikimedia.org/wikipedia/commons/1/1a/It_%281986%29_front_cover%2C_first_edition.jpg",
+        "quanty": 1
+    },
+
+    {
+        "id": 5,
+        "name": "El color que cayo del cielo",
+        "author": "H.P. Lovecraft",
+        "price": 5000,
+        "img": "https://luisbermer.com/wp-content/uploads/2018/08/Portada-El-Color-que-cay%C3%B3-del-cielo.jpg",
+        "quanty": 1
+    },
+
+    {
+        "id": 6,
+        "name": "El corazon delator",
+        "author": "Edgar Allan Poe",
+        "price": 6400,
+        "img": "https://image.cdn1.buscalibre.com/5b5740af1dc861d2658b456a.RS500x500.jpg",
+        "quanty": 1
+    },
+
+    {
+        "id": 7,
+        "name": "Dune",
+        "author": "Frank Herbert",
+        "price": 2355,
+        "img": "https://d3fa68hw0m2vcc.cloudfront.net/9f0/258485879.jpeg",
+        "quanty": 1
+    },
+
+    {
+        "id": 8,
+        "name": "El silmarillon",
+        "author": "J. R. R. Tolkien",
+        "price": 4560,
+        "img": "https://images.cdn1.buscalibre.com/fit-in/360x360/86/44/864433ce26b854c45a844910736c1baf.jpg",
+        "quanty": 1
+    }
+]
